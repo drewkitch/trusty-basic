@@ -1,0 +1,5 @@
+- name: push image to Docker Hub
+  tag: master
+  service: trusty-basic
+  type: push
+  image: dkcodeship/trusty-basic
