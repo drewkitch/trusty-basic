@@ -1,4 +1,4 @@
-trusty:
+trusty-basic:
   build:
     image: dkcodeship/trusty-basic
     dockerfile: Dockerfile
