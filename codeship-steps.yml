@@ -2,4 +2,5 @@
   tag: master
   service: trusty-basic
   type: push
-  image: dkcodeship/trusty-basic
+  image_name: dkcodeship/trusty-basic
+  encrypted_dockercfg_path: dockercfg.encrypted
