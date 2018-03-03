@@ -3,4 +3,5 @@
   service: trusty-basic
   type: push
   image_name: dkcodeship/trusty-basic
+  image_tag: dk
   encrypted_dockercfg_path: dockercfg.encrypted
