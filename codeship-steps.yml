@@ -6,7 +6,7 @@
   image_tag: dk
   encrypted_dockercfg_path: dockercfg.encrypted
 
-- name: push image to Docker Hub
+- name: push image to Docker Hub with latest tag
   tag: master
   service: trusty-basic
   type: push
