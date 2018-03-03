@@ -5,3 +5,11 @@
   image_name: dkcodeship/trusty-basic
   image_tag: dk
   encrypted_dockercfg_path: dockercfg.encrypted
+
+- name: push image to Docker Hub
+  tag: master
+  service: trusty-basic
+  type: push
+  image_name: dkcodeship/trusty-basic
+  image_tag: "latest"
+  encrypted_dockercfg_path: dockercfg.encrypted
